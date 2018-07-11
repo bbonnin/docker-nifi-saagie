@@ -1,0 +1,10 @@
+{
+	"name": "test_abc",
+	"namespace": "test",
+	"type": "record",
+	"fields": [
+		{ "name": "a", "type": "int" },
+		{ "name": "b", "type": "int" },
+		{ "name": "c", "type": "int" }
+	]
+}

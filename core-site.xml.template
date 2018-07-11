@@ -1,0 +1,49 @@
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+  <property>
+    <name>fs.defaultFS</name>
+    <value>HDFS_URL</value>
+  </property>
+
+  <!-- OOZIE proxy user setting -->
+  <property>
+    <name>hadoop.proxyuser.oozie.hosts</name>
+    <value>*</value>
+  </property>
+  <property>
+    <name>hadoop.proxyuser.oozie.groups</name>
+    <value>*</value>
+  </property>
+
+  <!-- HTTPFS proxy user setting -->
+  <property>
+    <name>hadoop.proxyuser.httpfs.hosts</name>
+    <value>*</value>
+  </property>
+  <property>
+    <name>hadoop.proxyuser.httpfs.groups</name>
+    <value>*</value>
+  </property>
+
+  <!-- Llama proxy user setting -->
+  <property>
+    <name>hadoop.proxyuser.llama.hosts</name>
+    <value>*</value>
+  </property>
+  <property>
+    <name>hadoop.proxyuser.llama.groups</name>
+    <value>*</value>
+  </property>
+
+  <!-- Hue proxy user setting -->
+  <property>
+    <name>hadoop.proxyuser.hue.hosts</name>
+    <value>*</value>
+  </property>
+  <property>
+    <name>hadoop.proxyuser.hue.groups</name>
+    <value>*</value>
+  </property>
+
+</configuration>
