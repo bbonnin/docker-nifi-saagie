@@ -2,3 +2,6 @@ tmp/
 archive/
 container_id
 nifi-*
+.DS_Store
+cookies.txt
+
